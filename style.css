@@ -1,0 +1,56 @@
+nav img{
+  max-width: 64px;
+  max-height: 64px;
+  object-fit: scale-down;
+  border-radius: 50%;
+}
+
+main {
+  text-align: center;
+}
+
+#codes{
+  width: 98%;
+  min-height: 280px;
+  border-radius: 17px;
+  border: 1px solid red;
+}
+
+#buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#buttons button{
+  width: 47%;
+  margin-top: 10px;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  /*border: 0;*/
+  border-radius: 13px;
+}
+
+#remove{
+  background: red;
+  color: white;
+  border: 3px solid green;
+}
+
+#play{
+  background: green;
+  color: white;
+  border: 3px solid red;
+}
+
+#title-result{
+  padding: 10px;
+  border-bottom: 2px solid blue;
+  margin: 8px 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#result{
+  max-width: 100% !important;
+}
